@@ -5,16 +5,16 @@ void sortMasiv(int mas[5][5]);
 void maxMasiv(int mas[5][5]);
 int main() {
 	
-	int masivchuk[5][5];
+	int matrix[5][5];
 	for (int i = 0; i < 5;i++) {
 		printf("\nRipka %d\n\n", i + 1);
 		for (int j = 0;j < 5;j++) {
 			printf("Number%d: ", j + 1);
-			scanf_s("%d", &masivchuk[i][j]);
+			scanf_s("%d", &matrix[i][j]);
 		}
 	}
-	sortMasiv(masivchuk);
-	maxMasiv(masivchuk);
+	sortMasiv(matrix);
+	maxMasiv(matrix);
 
 	return 0;
 }
